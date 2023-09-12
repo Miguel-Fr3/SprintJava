@@ -5,10 +5,13 @@ public class Bank {
     private String PessoaJuridica;
     private String TipoDeBank;
 
-    public Bank(String PessoaFisica, String PessoaJuridica, String TipoDeBank) {
-        this.PessoaFisica = PessoaFisica;
-        this.PessoaJuridica = PessoaJuridica;
-        this.TipoDeBank = TipoDeBank;
+    public Bank() {
+    }
+
+    public Bank(String pessoaFisica, String pessoaJuridica, String tipoDeBank) {
+        PessoaFisica = pessoaFisica;
+        PessoaJuridica = pessoaJuridica;
+        TipoDeBank = tipoDeBank;
     }
 
     public String getPessoaFisica() {
@@ -36,7 +39,7 @@ public class Bank {
     }
 
     public static void main(String[] args) {
-        Bank bank = new Bank("", "", "");
+        Bank bank = new Bank();
         System.out.println("Detalhes do Bank:");
         System.out.println("Pessoa Física: " + bank.getPessoaFisica());
         System.out.println("Pessoa Jurídica: " + bank.getPessoaJuridica());
