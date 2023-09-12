@@ -1,0 +1,30 @@
+Classe Bank:
+- Representa uma instituição bancária.
+- Gerencia informações de conta bancária, como Pessoa Física, Pessoa Jurídica e Tipo de Banco.
+- Oferece métodos para verificar saldo, fazer depósitos, retiradas e transferências entre contas.
+
+Classe Categorias:
+- Representa categorias.
+- Permite manipular informações relacionadas a categorias.
+- Inclui métodos para acessar e modificar o nome da categoria, verificar igualdade, validar e registrar informações adicionais.
+
+Classe Saude:
+- Gerencia informações de saúde.
+- Lida com Pessoa Jurídica e Tipo de Serviço de Saúde.
+- Pode ser estendida com lógica específica conforme necessário.
+
+Classe Seguro:
+- Lida com informações de seguro.
+- Inclui métodos para acessar e modificar informações como Pessoa Física, Pessoa Jurídica e Tipo de Seguro.
+- Pode ser personalizada com base nas necessidades do projeto.
+
+Classe Servico:
+- Gerencia informações de serviço.
+- Envolve Pessoa Física e Tipo de Serviço.
+- Pode ser adaptada e expandida de acordo com os requisitos do projeto.
+
+Classe Main:
+- Contém o método main, a função principal do programa.
+- Cria instâncias das classes Seguro, Bank, Saude, Servico e Categorias.
+- Interage com esses objetos, define valores iniciais e exibe informações no console para demonstrar o uso e 
+  teste das funcionalidades das classes definidas.
